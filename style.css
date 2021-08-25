@@ -1,0 +1,16 @@
+*{
+
+    border: 1px solid black;
+    width: 100%;
+}
+body{
+  width:100%;
+
+
+}
+.nav-wrapper {
+    width: 50%;
+}
+span{
+    width: 50%;
+}
