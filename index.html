@@ -1,48 +1,199 @@
  <!DOCTYPE html>
- <html>
-     <head>
-      <title>BOOK TERMINAL</title> 
-      <link rel="stylesheet" type="text/css" href="./style.css">  
-     </head>
-<body>
-    <div class="nav-wrapper">
-        <h1 style="background-color:powderblue;">BOOK TERMINAL</h1>
-        <span> 
-        <a href="#">about</a>
-        <a href="#">services</a>
-        <a href="#">contact us</a>
-    </span>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/ec8bcb07a4.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" type="text/css" href=index.css>  
+   <title>Document</title>
+ </head>
+ <body>
+ 
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <i class="fas fa-book" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </i>
+        <span class="ml-3 text-xl">Book-terminal</span>
+        
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a href="index2.html" class="mr-5 hover:text-gray-900">about</a>
+        <a href="index3.html"class="mr-5 hover:text-gray-900">career</a>
+        <a href="index4.html" class="mr-5 hover:text-gray-900">help</a>
+ 
+      </nav>
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">register
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
     </div>
-<hr>
-<img src="./images/pexels-ichad-windhiagiri-3989751.jpg" width="500px">
-<h4>introduction</h4>
-<p>hello everyone this is my first time
-    i have tried my hands on web dev.I have tried to make this platform for students who<br> didn't like to sell books and rather beileve to give it to someone who will completely utilise it. </p>
-    <p>It has following features:-</p>
-     <ul>
-         <li>easy to login!</li>
-         
-         <li>free for everyone</li>
-         <li>contribute to reusabilty of paper </li>
-     </ul>
-     <hr>
-     
-    <img src="./images/pexels-reggienald-suarez-4126684.jpg"width="500px">
-    
-<img src="./images/pexels-ibadah-mimpi-3224344.jpg"width ="500px">
-<img src="./images/pexels-yaroslav-shuraev-5608541.jpg" width="500px">
-<hr>
- <form>
-     <label>name:</label>
-     <input type="text"name="name" placeholder="your name">
-     <label>email:</label>
-     <input type ="email"name="email">
-     <br>
-     <textarea placeholder="feedback"></textarea>
-     <input type="submit name="submit" value="submit">
- </form>
-
-</body>
+  </header>
 
 
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+      <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+        <h1 class="title-font font-medium text-3xl text-gray-900">Connecting bibliophiles across campus</h1>
+        <p class="leading-relaxed mt-4">A step forward to decrease paper consumption by increasing reusability.</p>
+      </div>
+      <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+        <h2 class="text-gray-900 text-lg font-medium title-font mb-5">log in</h2>
+        <div class="relative mb-4">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">email</label>
+          <input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">password</label>
+          <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <a href="indexlogin.html"       class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" >log in</a>
+        <p class="text-xs text-gray-500 mt-3">Lorem ipsum dolor sit.</p>
+      </div>
+    </div>
+  </section><section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Hello people,</h1>
+        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">We all need friends who would be there for us when needed and who would understand us without being judgemental. And books can be our best friends for life, for all the right reasons. Good books enrich our mind and broaden our perspective towards life. What's more, one can never feel lonely in the company of books.</p>
+      </div>
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?qoutes">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/505x300/?books">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://source.unsplash.com/600x360/?qoutes">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full"> 
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://source.unsplash.com/600x360/?qoutes">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/501x300/?motivational">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/502x300/?nature">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">&nbsp Some recommendations,
+  </h1>
+  
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Muhammad Ali: His Life and Times
+           
+        </h1>
+        <p class="mb-8 leading-relaxed">Muhammad Ali: His Life and Times is a biography of the boxer Muhammad Ali, written in 1991 by Thomas Hauser. It won the William Hill Sports Book of the Year award in that year.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Add to wishlist</button>
+           
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src=ma.jpg>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="mg.jpeg">
+      </div>
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The Essential Gandhi
+          
+        </h1>
+        <p class="mb-8 leading-relaxed">The Essential Gandhi: An Anthology of His Writings on His Life, Work, and Ideas is a collection of Mohandas Gandhi's writings edited by Louis Fischer. The book outlines how Gandhi became the Mahatma and introduces Gandhi's opinions on various subjects. It is split into two parts, "The Man" and "The Mahatma".</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Add to wishlist</button>
+           
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Why I Am an Atheist
+           
+        </h1>
+        <p class="mb-8 leading-relaxed">Why I am an Atheist is an essay written by Indian revolutionary Bhagat Singh in 1930 in Lahore Central Jail. The essay was a reply to his religious friends who thought Bhagat Singh became an atheist because of his vanity.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Add to wishlist</button>
+           
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src=bs.jpeg>
+      </div>
+    </div>
+  </section>
+
+
+
+   
+
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="sv.jpeg">
+      </div>
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">My Master
+           
+        </h1>
+        <p class="mb-8 leading-relaxed">My Master is an English book combined from two lectures delivered by Swami Vivekananda in New York and England, published in 1901.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Add to wishlist</button>
+           
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+          <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+        </svg>
+        <p class="leading-relaxed text-lg">If i love myself despite my infinite faults, how can i hate anyone at the glimpse of a few faults.</p>
+        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Swami Vivekananda </h2>
+        <p class="text-gray-500"> </p>
+      </div>
+    </div>
+  </section>
+
+
+
+ </body>
  </html>
+  
+  
+
+
+ 
